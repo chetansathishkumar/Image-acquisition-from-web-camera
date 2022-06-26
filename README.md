@@ -1,13 +1,15 @@
-# Image-Acquisition-from-Web-Camera
-## Aim
+## EX.NO: 02<br>
+## DATE: 08-04-2022
+## <p align="center">IMAGE ACQUISITION FROM WEB CAMERA</p>
  
-Aim:
- 
+## Aim:
+<br>
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
+<br>
 i) Write the frame as JPG 
-ii) Display the video 
-iii) Display the video by resizing the window
-iv) Rotate and display the video
+<br>ii) Display the video 
+<br>iii) Display the video by resizing the window
+<br>iv) Rotate and display the video
 
 ## Software Used
 Anaconda - Python 3.7
@@ -31,14 +33,11 @@ Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
 
 ## Program:
 
- Python
- 
-### Developed By: Pabbarthi Chetan Sathish kumar
+### Developed By: P S Chetan
 ### Register No: 212220230033
 
-
-## i) Write the frame as JPG file
-```
+### i) Write the frame as JPG file
+```python
 import cv2
 
 videoCaptureObject = cv2.VideoCapture(0)
@@ -46,8 +45,8 @@ ret,frame = videoCaptureObject.read()
 cv2.imwrite("JayashreeRao.jpg",frame)
 ```
 
-## ii) Display the video
-```
+### ii) Display the video
+```python
 import cv2
 import numpy as np
 
@@ -65,8 +64,8 @@ videoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
 
-## iii) Display the video by resizing the window
-```
+### iii) Display the video by resizing the window
+```python
 import cv2
 import numpy as np
 
@@ -94,8 +93,8 @@ videoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
 
-## iv) Rotate and display the video
-```
+### iv) Rotate and display the video
+```python
 import cv2
 import numpy as np
 
