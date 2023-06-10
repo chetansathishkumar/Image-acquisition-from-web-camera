@@ -1,5 +1,5 @@
 ## EX.NO: 02<br>
-## DATE: 08-04-2022
+## DATE: 22.03.2023
 ## <p align="center">IMAGE ACQUISITION FROM WEB CAMERA</p>
  
 ## Aim:
